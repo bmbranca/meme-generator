@@ -57,7 +57,7 @@ export default function Meme() {
           onChange={handleChange}
         />
         <button className="form--button" onClick={getMemeImage}>
-          Get a random meme!
+          Get random picture
         </button>
       </div>
       <div className="meme">

@@ -14,6 +14,7 @@ main {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding: 30px;
 }
 
 .header {
@@ -23,11 +24,6 @@ main {
   background: linear-gradient(90deg, #5d5ff8 1.18%, #422ef8 100%);
   color: white;
   padding: 20px;
-}
-
-.header--image {
-  height: 100%;
-  margin-right: 6px;
 }
 
 .header--title {
@@ -103,4 +99,10 @@ main {
 
 .top {
   top: 0;
+}
+
+@media (max-width: 550px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
 }
